@@ -1,8 +1,8 @@
 header h1 {
-    size: 10px;
+    font-size: 28px;
 }
 
-header p {
+header .paragraph-italic {
     font-style: italic;
 }
 
@@ -12,8 +12,8 @@ body {
     background-color: #CCCCCC;
 }
 
-p {
-    size: 24px;
+.size24{
+    font-size: 24px;
 }
 
 section {
