@@ -1,0 +1,18 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
