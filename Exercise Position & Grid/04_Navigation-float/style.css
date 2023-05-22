@@ -1,42 +1,146 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(238, 238, 238);
+}
+
+
+/* HEADER */
+
+.header {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 40px;
+  margin-right: 80px;
+  padding: 0px;
+}
+
+header ul {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 header li {
   display: inline-block;
-  list-style: none;
+  padding-right: 20px;
+}
+
+header li a {
+  color: rgb(0, 102, 0);
+  font-size: 11px;
 }
 
 nav {
   display: inline-block;
   width: 50%;
+  text-align: right;
 }
 
 .title {
-  display: inline-block;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.title-container {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  width: 49%;
 }
+
+hr {
+  border: 1px solid black;
+}
+
+
+
+/* MAIN */
+
+main {
+  position: absolute;
+  width: 60%;
+  margin-left: 90px;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+
+
+/* IMAGES */
 
 img {
   border: 2px solid black;
   padding: 5px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .img1 {
+  width: 115px;
   float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .img2 {
+  width: 125px;
   float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-main {
-  position: relative;
-  width: 700px;
-}
+
+
+/* ASIDE */
+
 aside {
   position: absolute;
-  width: 40%;
+  width: 25%;
   right: 0px;
-  top: 200px;
+  font-size: 0.6rem;
+}
+
+aside h2 {
+  font-family: Georgia;
+  font-weight: 100;
+}
+
+aside li {
+  margin: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-family: Georgia;
+}
+
+
+
+/* BLOCKQUOTE */
+main article blockquote {
+  font-family: Georgia, serif;
+  color: #928f8d;
+  font-style: italic;
+  border-left: 4px solid #dddddd;
+  padding-left: 26px;
+  font-style: italic;
+  float: right;
+  left: 220px;
+  width: 240px;
+  bottom: 200px;
+}
+
+main article blockquote .author-name {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
