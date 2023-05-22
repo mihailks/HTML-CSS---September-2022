@@ -1,0 +1,46 @@
+header p.title {
+  display: inline-block;
+  width: 50%;
+}
+
+header nav {
+  display: inline-block;
+  width: 49%;
+}
+
+/* header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+header ul {
+  text-align: right;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: green;
+}
+
+main article {
+  display: inline-block;
+  width: 65%;
+  margin-right: 5%;
+}
+
+main aside {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+}
+
+/* 
+main {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 5%;
+} */

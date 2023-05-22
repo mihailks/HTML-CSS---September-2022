@@ -1,0 +1,42 @@
+header li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav {
+  display: inline-block;
+  width: 50%;
+}
+
+.title {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: left;
+}
+
+main {
+  position: relative;
+  width: 700px;
+}
+aside {
+  position: absolute;
+  width: 40%;
+  right: 0px;
+  top: 200px;
+}
