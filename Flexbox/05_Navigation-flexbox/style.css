@@ -1,0 +1,23 @@
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+
+a {
+   color: rgb(0, 153, 0);
+   text-decoration: none;
+}

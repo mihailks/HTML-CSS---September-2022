@@ -12,7 +12,8 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.096);}
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.096);
+}
 
 a {
   text-decoration: none;

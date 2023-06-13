@@ -1,0 +1,37 @@
+body {
+  background-color: #eee;
+  padding: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+header,
+main,
+aside,
+footer {
+  
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  color: #000;
+  text-transform: uppercase;
+  box-shadow: 4px -1px 26px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px -1px 26px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px -1px 26px -5px rgba(0,0,0,0.75);
+}
+
+header,
+footer {
+    height: 8rem;
+  flex-basis: 100%;
+}
+
+main {
+  flex: 8 1 40rem;
+  height: 16rem;
+}
+
+aside {
+  flex: 2 1 20rem;
+}
