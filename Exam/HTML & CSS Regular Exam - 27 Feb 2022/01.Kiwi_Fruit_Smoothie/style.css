@@ -1,0 +1,84 @@
+
+:root {
+    --main_collor: rgb(0, 128, 0);
+}
+
+.card {
+    padding: 1rem;
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 8rem auto;
+    width: 45%;
+    gap: 2rem;
+    box-shadow: 1px 8px 17px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 8px 17px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 8px 17px -6px rgba(0, 0, 0, 0.75);
+}
+
+.text {
+    background-image: url("image/image1.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+}
+table th, table td {
+    text-align: center;
+
+    border: 1px solid var(--main_collor);
+
+}
+
+.main-title {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px dotted var(--main_collor);
+}
+
+.text .serves {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.text .time {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.list-ingre {
+    margin-bottom: 1rem;
+}
+
+.list-ingre:last-child {
+    margin-bottom: 2rem;
+}
+
+.list-ingre .green {
+    color: var(--main_collor);
+    font-weight: bold;
+}
+
+.recep{
+    margin-bottom: 2rem;
+}
+
+.img-cont{
+    width: 50%;
+}
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+

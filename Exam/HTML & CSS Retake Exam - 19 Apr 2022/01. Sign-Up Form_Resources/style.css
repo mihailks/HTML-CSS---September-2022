@@ -1,0 +1,100 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+body {
+    background-color: rgb(233, 233, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10rem auto;
+    width: 46%;
+    box-shadow: 1px 8px 17px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 8px 17px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 8px 17px -6px rgba(0, 0, 0, 0.75);
+}
+
+.left {
+    width: 50%;
+    background-image: url("image/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text {
+    padding: 3rem 2rem 2rem 2rem;
+    width: 50%;
+}
+
+.reg-form input {
+    margin-bottom: 2rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 1rem;
+}
+
+.reg-form label {
+    display: block;
+    margin-bottom: 1rem;
+
+}
+
+.text .register {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin: 1rem 1rem 1rem 1.5rem;
+}
+
+.text .ninja {
+    color: gray;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.left .title{
+    color: white;
+    font-size: 0.8rem;
+    margin: 2rem;
+}
+
+.left .welcome-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.welcome-text .welcome{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.welcome-text .dev{
+    color: white;
+    font-size: 1rem;
+}
+
+.left .icons{
+    position: absolute;
+    bottom: 2rem;
+    left: 10rem;
+    color: white;
+}
+i {
+
+}
+
+
+
+
+
+

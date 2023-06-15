@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+body{
+    background-image: url("images/background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+    font-family: Mulish,sans-serif;
+}
+
+.form-cont{
+    background-image: url("images/form-background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+}
+
+.input-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "fn ln"
+    "email email"
+    "pass pass"
+    "cpass cpass"
+    "check check";
+}
+
+
+.input-form-fn{
+    grid-area: fn;
+    margin-right: 1rem;
+
+}
+.input-form-ln{
+    grid-area: ln;
+}
+
+.input-form-email{
+    grid-area: email;
+}
+
+.input-form-pass{
+    grid-area: pass;
+}
+
+.input-form-c-pacc{
+    grid-area: cpass;
+}
+.input-form-check{
+    grid-area: check;
+    font-size: 0.75rem
+}
+
+.btn{
+    /*display: inline-block;*/
+    /*max-width: 50%;*/
+    padding: 10px 20px;
+    background-color: #752020;
+    border-radius: 20px;
+    color: white;
+    border: none;
+
+}
+
+.input-form input{
+    width: 100%;
+    padding: 10px 75px;
+    border-radius: 20px;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.input-form label{
+    width: 100%;
+    font-size: 0.75rem;
+}
+
+.main-title{
+    font-size: 1.5rem;
+    font-family: Mulish,sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+

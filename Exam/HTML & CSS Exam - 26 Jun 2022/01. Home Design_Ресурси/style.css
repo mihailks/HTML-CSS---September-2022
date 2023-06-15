@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+html {
+    font-family: 'Courgette', cursive;
+}
+
+
+.titles {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.titles h1{
+letter-spacing: 5px;
+}
+.titles .design{
+    color: red;
+    margin-right: -170px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.card {
+    text-align: center;
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+
+}
+
+.card .card-title {
+
+    padding: 1rem;
+    margin-inline: 1rem;
+    border-bottom: 1px solid red;
+}
+
+.card .card-desk {
+    padding: 1rem;
+}
+
+.card .continue {
+    display: block;
+    margin: 1rem;
+}
+
+.card img {
+    width: 100%;
+}
+
