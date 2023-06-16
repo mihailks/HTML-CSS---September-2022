@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titles-container {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5rem auto;
+    gap: 1rem;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.card {
+    width: 33%;
+    background-color: #1f6d9e;
+}
+
+a {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}

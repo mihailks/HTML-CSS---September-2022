@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans%7CPT+Serif);
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+:root{
+    --main-color:rgb(208, 25, 25);
+    --text_white:rgb(255,255,255);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 4rem;
+    color: var(--text_white);
+}
+.address{
+    font-size: 1.25rem;
+}
+
+.phone{
+   margin-left: 5rem;
+    font-size: 1.25rem;
+}
+
+.social-list{
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 3.75rem;
+    font-size: 1.25rem;
+}
+
+/*SECOND SECTION*/
+
+.hero .nav-list{
+    display: flex;
+    justify-content: end;
+    gap: 4.65rem;
+    margin-right: 3.25rem;
+    font-size: 1.25rem;
+    padding-top: 2rem;
+}
+
+.hero .title-container{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.title-container .main-title{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+}
+
+.title-container .sub-title{
+    font-size: 1.25rem;
+    margin-bottom: 5rem;
+}
+
+.title-container .btn{
+    font-size: 1rem;
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 25px;
+    border-radius: 6px;
+    margin-bottom: 10rem;
+}
+
+.hero {
+    background-image: url("image/fitness-main.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 610px;
+    color: var(--text_white);
+}
+
+/*CARDS------*/
+
+.cards-container{
+    display: flex;
+}
+
+.card{
+    max-width: 30%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+.welcome img {
+    width: 20%;
+    height: auto;
+}
+
+.coaches img{
+    width: 60%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+
+.cards-container{
+    display: flex;
+}
+
+/*footer------*/
+
+.footer-text{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--main-color);
+}
+
+

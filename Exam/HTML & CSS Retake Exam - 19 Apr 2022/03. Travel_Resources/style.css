@@ -1,0 +1,103 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+.site-container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.site-header{
+    margin-top: 1rem;
+    margin-right: 4rem;
+    position: relative;
+}
+
+.first-header{
+    margin-bottom: 1rem;
+}
+
+
+.search-list{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    gap: 1rem;
+}
+
+.main-nav-list{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    gap: 1rem;
+}
+
+.search-list-elements:hover{
+    background-color: red;
+}
+
+.hero{
+    background-image: url("image/slider.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+.shuttle-container{
+    width: 600px;
+    height: 180px;
+    position: absolute;
+    top: 5rem;
+    left:2rem;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 1rem;
+}
+.shuttle-container a{
+    display: inline-block;
+    border: 2px solid white;
+    color: rgb(172, 130, 30);
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.hero-text{
+    text-align: center;
+    background-color: rgb(172, 130, 30);
+    color: white;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.hero-container{
+    width: 500px;
+    margin: 1rem auto;
+}
+
+.hero-text ul{
+    margin: 1rem;
+    text-align: left;
+}
+.hero-list li{
+    margin-top: 1rem;
+}
+
+.hero-container a{
+    display: inline-block;
+    border: 1px solid white;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    margin-bottom: 2rem;
+}
+
+.logo-container{
+    position: absolute;
+    background-color: rgb(172, 130, 30);
+    top: 0.5rem;
+    left: 5rem;
+    z-index: 2;
+}

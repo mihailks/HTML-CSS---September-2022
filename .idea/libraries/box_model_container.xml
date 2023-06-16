@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="box-model-container">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CSS Box Model/01_Box-Model-Container/box-model-container.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
