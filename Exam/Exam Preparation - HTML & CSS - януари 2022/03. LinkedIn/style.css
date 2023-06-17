@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+:root {
+    --joinButton: rgb(102, 102, 102);
+    --firsth1: rgb(41, 119, 201);
+    --first-button: rgb(10, 102, 194);
+
+    --sec2TagsBack: rgb(230, 229, 228);
+    --sec2TagsText: rgb(92, 115, 133);
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-cont {
+    max-width: 230px;
+    margin-left: 175px;
+}
+
+.header-buttons {
+    margin-right: 10rem;
+}
+
+.header-buttons .join {
+    color: var(--joinButton);
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.header-buttons .sign {
+    text-decoration: none;
+    border: 2px solid var(--first-button);
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: var(--first-button);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 25px
+}
+
+.hero {
+    padding: 38px 46px;
+    position: relative;
+}
+
+
+.hero .hero-text {
+    width: 60%;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+}
+
+.hero .main-title {
+    font-size: 75px;
+    color: var(--firsth1);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hero form {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    margin-bottom: 66px;
+}
+
+.hero input {
+    font-size: 22px;
+    padding: 15px 20px;
+    margin-bottom: 17px;
+}
+
+.hero input:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.hero form a {
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--joinButton);
+    margin-bottom: 40px;
+}
+
+.hero form button {
+    background-color: var(--first-button);
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    border: none;
+    font-size: 28px;
+}
+
+.jobs {
+    display: flex;
+    padding: 185px 185px;
+    gap: 150px;
+    background-color: rgb(250, 249, 247);
+}
+
+.jobs .jobs-title {
+    font-size: 66px;
+    font-weight: normal;
+    max-width: 500px;
+}
+
+.jobs .search-title {
+    color: rgb(92, 92, 91);
+    font-size: 25px;
+}
+
+.jobs .search-job {
+    background-color: lightgray;
+    color: rgb(92, 92, 91);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 40px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.section3 {
+    background-color: rgb(241, 236, 229);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.section3 .section3-title {
+    font-size: 55px;
+    color: #d2481e;
+    font-weight: normal;
+    margin-left: 185px;
+    max-width: 600px;
+    display: inline-block;
+}
+
+.section3 a {
+    color: rgb(92, 92, 91);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 40px;
+    border: 1px solid rgb(92, 92, 91);
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 830px;
+}
+
+.section4{
+    display: flex;
+    padding: 200px 185px;
+    gap: 100px;
+    align-items: center;
+    background-color: rgb(250, 249, 247);
+}
+
+.section4 .section4-title{
+    font-size: 55px;
+    color: var(--first-button);
+    font-weight: normal;
+}
+
+.section4 .section4-img-cont{
+    width: 40%;
+}
+
+.section4 .section4-p{
+    font-size: 40px;
+}
+
+.section4 .section4-text{
+    max-width: 50%;
+}
+
+.section5{
+    display: flex;
+    margin: 150px 150px;
+    gap: 100px;
+    justify-content: flex-start;
+}
+
+.section5 h2{
+    font-size: 65px;
+    font-weight: normal;
+    margin-bottom: 60px;
+    line-height: 1.3;
+}
+
+.section5 img{
+    width: 60%;
+}
+.section5 .part-one img{
+    margin-bottom: 40px;
+}
+
+.part-one a{
+    color: rgb(92, 92, 91);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 40px;
+    border: 1px solid rgb(92, 92, 91);
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
