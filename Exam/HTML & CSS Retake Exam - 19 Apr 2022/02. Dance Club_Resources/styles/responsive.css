@@ -1,1 +1,52 @@
-//TODO
+@media (max-width: 800px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-options {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .trainings {
+        flex-direction: column;
+    }
+
+    .trainings div {
+        width: 70%;
+    }
+
+    .instructors-pic {
+        justify-content: center;
+    }
+
+    .instructors-pic li{
+        width: 100%;
+    }
+
+    .classes li {
+        width: 50%;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .site-footer .wrapper {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .site-footer .about {
+        flex-basis: 100%;
+    }
+}

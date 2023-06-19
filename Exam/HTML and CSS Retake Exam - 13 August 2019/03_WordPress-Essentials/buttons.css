@@ -1,0 +1,13 @@
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: var(--main-orange);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btn.hero-btn{
+    padding-inline: 60px;
+    margin-bottom: 2rem;
+}
+

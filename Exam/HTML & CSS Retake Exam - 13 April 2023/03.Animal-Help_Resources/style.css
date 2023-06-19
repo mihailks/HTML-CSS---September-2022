@@ -3,14 +3,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
 
 
-body {
-    max-width: 1000px;
+.side-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
 }
-
-section {
-    border: 1px solid crimson;
-}
-
 
 .site-header {
     display: flex;
@@ -41,9 +38,11 @@ section {
     font-weight: bold;
 }
 
+
 .section1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: skyblue;
 }
 
@@ -52,32 +51,39 @@ section {
 }
 
 .section1-text p {
+    font-size: 0.75rem;
     margin-bottom: 1rem;
 }
 
 .section1-text {
-    padding: 5rem
+    padding-inline: 4rem;
 }
 
-.section1-text .button {
+
+.section1-text .button, .button {
+    display: inline-block;
     margin-right: 1rem;
-    padding: 0.25rem 3rem;
+    padding: 0.5rem 3rem;
     border-radius: 4px;
     font-size: 0.75rem;
+
 }
 
 .section1-text .donate {
     background-color: white;
+    border: 1px solid black;
 }
 
-.section1-text .join {
+.section1-text .join, .section3-button, .section6 .button {
+    font-size: 0.75rem;
     background-color: black;
     color: white;
+    border: none;
 }
 
 .section1-img-cont {
     margin-right: 3rem;
-    width: 70%;
+    width: 65%;
 }
 
 .section1-img {
@@ -92,6 +98,22 @@ section {
     text-align: center;
 }
 
+.section2-text {
+    max-width: 600px;
+}
+
+.section2-text h2 {
+    font-size: 1rem;
+}
+
+.section2-text p {
+    font-size: 0.75rem;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+    letter-spacing: 1px;
+}
+
 .section2 .section2-icons {
     display: flex;
     justify-content: space-between;
@@ -99,6 +121,19 @@ section {
     text-align: center;
     gap: 3rem;
 }
+
+.section2-icon-con {
+    color: skyblue;
+}
+
+.icon-title {
+    font-size: 1rem;
+}
+
+.section2-info-para {
+    font-size: 0.75rem;
+}
+
 
 .section2 h3 {
     padding-top: 1rem;
@@ -164,9 +199,6 @@ section {
     margin: 2.5rem auto;
 }
 
-
-
-
 .section4-title {
     text-align: center;
 }
@@ -175,7 +207,56 @@ section {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.section5 h5 {
+    padding: 1rem;
+    text-align: left;
+    background-color: skyblue;
+}
+
+.section5 p {
+    font-size: 0.75rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+.section5 div {
+    margin: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+
+}
+
+.section6 {
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+form{
+
+}
+
+.s6-text{
+   flex: 1 1 50%;
+}
+
+.s6-img-cont{
+    flex: 1 0 50%;
 }
 
 

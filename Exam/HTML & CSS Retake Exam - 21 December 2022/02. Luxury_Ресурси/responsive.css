@@ -1,0 +1,76 @@
+@media (max-width: 800px) {
+    .div-header {
+        display:none !important;
+    }
+
+    .options{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .options article{
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .options a {
+        display: none;
+    }
+
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery article a {
+        display: none;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    main .blog #about-blog {
+        width: 90%;
+    }
+
+    main .magazine article {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    main .magazine-title h4{
+        font-size: 24px;
+    }
+
+    main .magazine-title a {
+        display: none;
+    }
+
+    main .magazine-info {
+        margin: 0;
+        padding: 40px;
+        text-align: center;
+    }
+
+    main .magazine-info img {
+        width: 100%;
+        height: 279px
+    }
+
+    main footer {
+        flex-direction: column;
+    }
+
+    main footer a{
+        display: block;
+    }
+
+
+
+
+
+
+
+}

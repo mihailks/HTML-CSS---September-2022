@@ -1,0 +1,21 @@
+
+.skills-header:after, .course-header:after, .themes-header:after, .forWhom-header:after{
+    display: block;
+    content: '';
+    width: 30rem;
+    height: 5px;
+    background-color: var(--main-orange);
+    margin: 10px auto;
+}
+
+.course-header:after{
+    width: 8rem;
+}
+
+.themes-header:after{
+    width: 5rem;
+}
+
+.forWhom-header:after{
+    background-color: white;
+}
